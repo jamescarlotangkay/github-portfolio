@@ -1,4 +1,5 @@
 #my first ever project in python
+#did this after 1 day of learning python with the help of mosh on yt lol
 
 'python calculate.py'
 print('Please use numerical form only, eg. YEAR:2020 MONTH:6 (JUNE) DAY: 12')
