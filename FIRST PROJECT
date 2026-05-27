@@ -1,0 +1,68 @@
+'python calculate.py'
+print('Please use numerical form only, eg. YEAR:2020 MONTH:6 (JUNE) DAY: 12')
+input('What is your name?')
+YEAR= input('What year were you born in?')
+MONTH= input('What month were you born in?')
+DAY= input('What day were you born in?')
+from datetime import date
+today = date.today()
+year = today.year
+month = today.month
+day = today.day
+print("today's date: ",today)
+yes= int(year)-int(YEAR)
+yees=int(month)-int(MONTH)
+yeees=int(day)-int(DAY)
+
+print('So, you have lived for')
+print(yes, 'years')
+print(yees, 'months')
+print(yeees, 'days')
+if MONTH=='june':
+    MONTH= 6
+    if MONTH== 'july':
+        MONTH= 7
+    if MONTH=='august':
+        MONTH= 8
+        if MONTH=='september':
+            MONTH= 9
+            if MONTH=='october':
+                MONTH= 10
+                if MONTH=='november':
+                    MONTH= 11
+                    if MONTH=='december':
+                        MONTH= 12
+                        if MONTH=='january':
+                            MONTH= 1
+                            if MONTH=='february':
+                                MONTH= 2
+                                if MONTH=='march':
+                                    MONTH= 3
+                                    if MONTH=='april':
+                                        MONTH= 4
+                                        if MONTH=='may':
+                                            MONTH= 5
+                                    if MONTH == ' june':
+                                        MONTH = 6
+                                        if MONTH == ' july':
+                                            MONTH = 7
+                                        if MONTH == ' august':
+                                            MONTH = 8
+                                            if MONTH == ' september':
+                                                MONTH = 9
+                                                if MONTH == ' october':
+                                                    MONTH = 10
+                                                    if MONTH == ' november':
+                                                        MONTH = 11
+                                                        if MONTH == ' december':
+                                                            MONTH = 12
+                                                            if MONTH == ' january':
+                                                                MONTH = 1
+                                                                if MONTH == ' february':
+                                                                    MONTH = 2
+                                                                    if MONTH == ' march':
+                                                                        MONTH = 3
+                                                                        if MONTH == ' april':
+                                                                            MONTH = 4
+                                                                            if MONTH == ' may':
+                                                                                MONTH = 5
